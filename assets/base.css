@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --text-color: rgb(85, 84, 84);
+  --swiper-theme-color: #4fb68d !important;
+  --header-top-height: 42px;
+  --header-main-height: 110px;
+  --swiper-navigation-size: 14px !important;
+}
+.p-14 {
+  padding: 0 15px;
+}
+.m-t {
+  margin-top: 0 !important;
+}
+.btn {
+  display: inline-block;
+  padding: 8px 17px;
+  color: #fff;
+  background: #4fb68d;
+  border-radius: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color linear 0.2s;
+}
+.btn:hover {
+  background: #000;
+}
+.mt-60 {
+  margin-top: 60px;
+}
