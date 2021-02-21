@@ -58,7 +58,23 @@ var swiper4 = new Swiper(".swiper-container--4", {
   slidesPerView: 1,
   spaceBetween: 30,
   navigation: {
-    nextEl: ".btn__next-type-3",
-    prevEl: ".btn__prev-type-3",
+    nextEl: ".btn__next-type-4",
+    prevEl: ".btn__prev-type-4",
+  },
+});
+var swiper5 = new Swiper(".swiper-container--5", {
+  slidesPerView: 4,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".btn__next-type-5",
+    prevEl: ".btn__prev-type-5",
+  },
+});
+var swiper6 = new Swiper(".swiper-container--6", {
+  slidesPerView: 4,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".btn__next-type-6",
+    prevEl: ".btn__prev-type-6",
   },
 });

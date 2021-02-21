@@ -33,6 +33,9 @@
 .mt-60 {
   margin-top: 60px;
 }
+.mt-30 {
+  margin-top: 30px;
+}
 .btn__arr {
   width: 35px !important;
   height: 35px !important;
@@ -45,4 +48,13 @@
 .btn__prev-type-2:hover {
   background-color: #4fb68d;
   color: #fff !important;
+}
+.img--hover {
+  overflow: hidden;
+}
+.img--hover img {
+  transition: transform linear 0.3s;
+}
+.img--hover:hover img {
+  transform: scale(1.03);
 }

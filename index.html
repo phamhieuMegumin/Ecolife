@@ -1,1423 +1,1264 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/base.css" />
-    <link rel="stylesheet" href="./assets/main.css" />
-    <link rel="stylesheet" href="./assets/responsive.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap"
-      rel="stylesheet"
-    />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="app">
-      <header>
-        <div class="header-top p-14">
-          <h3>Welcome you to Ecolife store!</h3>
-          <ul class="header-top__category">
-            <li class="header-top__item">
-              <div class="header-top__item-main">
-                <a href="#" class="header-top__item-link">
-                  <i class="fas fa-random header-top__item-link-icon-left"></i>
-                  <span class="header-top__item-logo-content">Compare (0)</span>
-                </a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/base.css" />
+  <link rel="stylesheet" href="./assets/main.css" />
+  <link rel="stylesheet" href="./assets/responsive.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap"
+    rel="stylesheet" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="app">
+    <header>
+      <div class="header-top p-14">
+        <h3>Welcome you to Ecolife store!</h3>
+        <ul class="header-top__category">
+          <li class="header-top__item">
+            <div class="header-top__item-main">
+              <a href="#" class="header-top__item-link">
+                <i class="fas fa-random header-top__item-link-icon-left"></i>
+                <span class="header-top__item-logo-content">Compare (0)</span>
+              </a>
+            </div>
+          </li>
+          <li class="header-top__item">
+            <div class="header-top__item-main">
+              <a href="#" class="header-top__item-link">
+                <i class="fas fa-heart header-top__item-link-icon-left"></i>
+                <span class="header-top__item-logo-content">Wishlist (0)</span>
+              </a>
+            </div>
+          </li>
+          <li class="header-top__item">
+            <div class="header-top__item-main header-top__item-main--drop">
+              <span class="header-top__item-logo-content">Setting</span>
+              <i class="fas fa-chevron-down header-top__item-link-icon-right"></i>
+              <div class="header__drop-menu">
+                <ul class="header__drop-menu-list">
+                  <li class="header__drop-menu-item">My accound</li>
+                  <li class="header__drop-menu-item">Checkout</li>
+                  <li class="header__drop-menu-item">Sign in</li>
+                </ul>
               </div>
-            </li>
-            <li class="header-top__item">
-              <div class="header-top__item-main">
-                <a href="#" class="header-top__item-link">
-                  <i class="fas fa-heart header-top__item-link-icon-left"></i>
-                  <span class="header-top__item-logo-content"
-                    >Wishlist (0)</span
-                  >
-                </a>
+            </div>
+          </li>
+          <li class="header-top__item">
+            <div class="header-top__item-main header-top__item-main--drop">
+              <span class="header-top__item-logo-content">USD $</span>
+              <i class="fas fa-chevron-down header-top__item-link-icon-right"></i>
+              <div class="header__drop-menu header__drop-menu--2">
+                <ul class="header__drop-menu-list">
+                  <li class="header__drop-menu-item">EUR</li>
+                  <li class="header__drop-menu-item">USD</li>
+                </ul>
               </div>
+            </div>
+          </li>
+          <li class="header-top__item">
+            <div class="header-top__item-main header-top__item-main--drop">
+              <span class="header-top__item-logo-content">English</span>
+              <i class="fas fa-chevron-down header-top__item-link-icon-right"></i>
+              <div class="header__drop-menu header__drop-menu--2">
+                <ul class="header__drop-menu-list">
+                  <li class="header__drop-menu-item">English</li>
+                  <li class="header__drop-menu-item">Francais</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- header-main -->
+      <div class="header-main p-14">
+        <div class="header-main__logo">
+          <img src="http://demo.posthemes.com/pos_ecolife/img/ecolife-responsive-prestashop-theme-logo-1580528177.jpg"
+            alt="logo" class="header__logo" />
+        </div>
+        <div class="header-main__content">
+          <ul class="header-main__list">
+            <li class="header-main__item">
+              <a href="#" class="header-main__item-link">Home</a>
             </li>
-            <li class="header-top__item">
-              <div class="header-top__item-main header-top__item-main--drop">
-                <span class="header-top__item-logo-content">Setting</span>
-                <i
-                  class="fas fa-chevron-down header-top__item-link-icon-right"
-                ></i>
-                <div class="header__drop-menu">
-                  <ul class="header__drop-menu-list">
-                    <li class="header__drop-menu-item">My accound</li>
-                    <li class="header__drop-menu-item">Checkout</li>
-                    <li class="header__drop-menu-item">Sign in</li>
-                  </ul>
+            <li class="header-main__item header-main__item-link--drop">
+              <a href="#" class="header-main__item-link header-main__item-link--drop">Fresh Food
+                <i class="fas fa-chevron-down header-top__item-link-icon-right header__icon--main"></i>
+              </a>
+              <div class="header-main__item-drop">
+                <div class="header-main__item-content">
+                  <div class="header-main__item-menu">
+                    <a href="#">Fresh Fruit</a>
+                    <ul class="header-main__item-list">
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Bananas</a>
+                      </li>
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Apple & Pears</a>
+                      </li>
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Berris & Cherris</a>
+                      </li>
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Oranges & Citrus Fruit</a>
+                      </li>
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Grapes</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="header-main__item-menu">
+                    <a href="#">Fresh Vegetables</a>
+                    <ul class="header-main__item-list">
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Bananas</a>
+                      </li>
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Apple & Pears</a>
+                      </li>
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Berris & Cherris</a>
+                      </li>
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Oranges & Citrus Fruit</a>
+                      </li>
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Grapes</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="header-main__item-menu">
+                    <a href="#">Fresh Salad & Dips</a>
+                    <ul class="header-main__item-list">
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Bananas</a>
+                      </li>
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Apple & Pears</a>
+                      </li>
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Berris & Cherris</a>
+                      </li>
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Oranges & Citrus Fruit</a>
+                      </li>
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Grapes</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="header-main__item-menu">
+                    <a href="#">Milk, Butter & Eggs</a>
+                    <ul class="header-main__item-list">
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Bananas</a>
+                      </li>
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Apple & Pears</a>
+                      </li>
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Berris & Cherris</a>
+                      </li>
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Oranges & Citrus Fruit</a>
+                      </li>
+                      <li class="header-main__item-list-item">
+                        <a href="#" class="header-main__item-list-link">Grapes</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="header-main__item-img">
+                  <img src="http://demo.posthemes.com/pos_ecolife/img/cms/banner-menu.jpg" alt="img" />
                 </div>
               </div>
             </li>
-            <li class="header-top__item">
-              <div class="header-top__item-main header-top__item-main--drop">
-                <span class="header-top__item-logo-content">USD $</span>
-                <i
-                  class="fas fa-chevron-down header-top__item-link-icon-right"
-                ></i>
-                <div class="header__drop-menu header__drop-menu--2">
-                  <ul class="header__drop-menu-list">
-                    <li class="header__drop-menu-item">EUR</li>
-                    <li class="header__drop-menu-item">USD</li>
-                  </ul>
+            <li class="header-main__item header-main__item-link--drop">
+              <a href="#" class="header-main__item-link">Fresh Vegetables
+                <i class="fas fa-chevron-down header-top__item-link-icon-right header__icon--main"></i>
+              </a>
+              <div class="header-main__item-drop header-main__item-drop--sm">
+                <div class="header-main__item-content">
+                  <div class="header-main__item-menu">
+                    <ul class="header-main__item-list m-t">
+                      <li class="header-main__item-list-item header-main__item-list-item--border">
+                        <a href="#" class="header-main__item-list-link">Potatoes & Sweet Potatoes</a>
+                      </li>
+                      <li class="header-main__item-list-item header-main__item-list-item--border">
+                        <a href="#" class="header-main__item-list-link">Onions & Leeks</a>
+                      </li>
+                      <li class="header-main__item-list-item header-main__item-list-item--border">
+                        <a href="#" class="header-main__item-list-link">Carrots & Root Vegetables</a>
+                      </li>
+                      <li class="header-main__item-list-item header-main__item-list-item--border">
+                        <a href="#" class="header-main__item-list-link">Broccoli & Cauliflower</a>
+                      </li>
+                      <li class="header-main__item-list-item header-main__item-list-item--border">
+                        <a href="#" class="header-main__item-list-link">Cabbages & Greens</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </li>
-            <li class="header-top__item">
-              <div class="header-top__item-main header-top__item-main--drop">
-                <span class="header-top__item-logo-content">English</span>
-                <i
-                  class="fas fa-chevron-down header-top__item-link-icon-right"
-                ></i>
-                <div class="header__drop-menu header__drop-menu--2">
-                  <ul class="header__drop-menu-list">
-                    <li class="header__drop-menu-item">English</li>
-                    <li class="header__drop-menu-item">Francais</li>
-                  </ul>
-                </div>
-              </div>
+            <li class="header-main__item">
+              <a href="#" class="header-main__item-link">Prices Drop</a>
+            </li>
+            <li class="header-main__item">
+              <a href="#" class="header-main__item-link">Contact Us</a>
             </li>
           </ul>
-        </div>
-        <!-- header-main -->
-        <div class="header-main p-14">
-          <div class="header-main__logo">
-            <img
-              src="http://demo.posthemes.com/pos_ecolife/img/ecolife-responsive-prestashop-theme-logo-1580528177.jpg"
-              alt="logo"
-              class="header__logo"
-            />
-          </div>
-          <div class="header-main__content">
-            <ul class="header-main__list">
-              <li class="header-main__item">
-                <a href="#" class="header-main__item-link">Home</a>
-              </li>
-              <li class="header-main__item header-main__item-link--drop">
-                <a
-                  href="#"
-                  class="header-main__item-link header-main__item-link--drop"
-                  >Fresh Food
-                  <i
-                    class="fas fa-chevron-down header-top__item-link-icon-right header__icon--main"
-                  ></i>
-                </a>
-                <div class="header-main__item-drop">
-                  <div class="header-main__item-content">
-                    <div class="header-main__item-menu">
-                      <a href="#">Fresh Fruit</a>
-                      <ul class="header-main__item-list">
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Bananas</a
-                          >
-                        </li>
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Apple & Pears</a
-                          >
-                        </li>
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Berris & Cherris</a
-                          >
-                        </li>
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Oranges & Citrus Fruit</a
-                          >
-                        </li>
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Grapes</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="header-main__item-menu">
-                      <a href="#">Fresh Vegetables</a>
-                      <ul class="header-main__item-list">
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Bananas</a
-                          >
-                        </li>
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Apple & Pears</a
-                          >
-                        </li>
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Berris & Cherris</a
-                          >
-                        </li>
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Oranges & Citrus Fruit</a
-                          >
-                        </li>
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Grapes</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="header-main__item-menu">
-                      <a href="#">Fresh Salad & Dips</a>
-                      <ul class="header-main__item-list">
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Bananas</a
-                          >
-                        </li>
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Apple & Pears</a
-                          >
-                        </li>
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Berris & Cherris</a
-                          >
-                        </li>
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Oranges & Citrus Fruit</a
-                          >
-                        </li>
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Grapes</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="header-main__item-menu">
-                      <a href="#">Milk, Butter & Eggs</a>
-                      <ul class="header-main__item-list">
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Bananas</a
-                          >
-                        </li>
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Apple & Pears</a
-                          >
-                        </li>
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Berris & Cherris</a
-                          >
-                        </li>
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Oranges & Citrus Fruit</a
-                          >
-                        </li>
-                        <li class="header-main__item-list-item">
-                          <a href="#" class="header-main__item-list-link"
-                            >Grapes</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="header-main__item-img">
-                    <img
-                      src="http://demo.posthemes.com/pos_ecolife/img/cms/banner-menu.jpg"
-                      alt="img"
-                    />
-                  </div>
-                </div>
-              </li>
-              <li class="header-main__item header-main__item-link--drop">
-                <a href="#" class="header-main__item-link"
-                  >Fresh Vegetables
-                  <i
-                    class="fas fa-chevron-down header-top__item-link-icon-right header__icon--main"
-                  ></i>
-                </a>
-                <div class="header-main__item-drop header-main__item-drop--sm">
-                  <div class="header-main__item-content">
-                    <div class="header-main__item-menu">
-                      <ul class="header-main__item-list m-t">
-                        <li
-                          class="header-main__item-list-item header-main__item-list-item--border"
-                        >
-                          <a href="#" class="header-main__item-list-link"
-                            >Potatoes & Sweet Potatoes</a
-                          >
-                        </li>
-                        <li
-                          class="header-main__item-list-item header-main__item-list-item--border"
-                        >
-                          <a href="#" class="header-main__item-list-link"
-                            >Onions & Leeks</a
-                          >
-                        </li>
-                        <li
-                          class="header-main__item-list-item header-main__item-list-item--border"
-                        >
-                          <a href="#" class="header-main__item-list-link"
-                            >Carrots & Root Vegetables</a
-                          >
-                        </li>
-                        <li
-                          class="header-main__item-list-item header-main__item-list-item--border"
-                        >
-                          <a href="#" class="header-main__item-list-link"
-                            >Broccoli & Cauliflower</a
-                          >
-                        </li>
-                        <li
-                          class="header-main__item-list-item header-main__item-list-item--border"
-                        >
-                          <a href="#" class="header-main__item-list-link"
-                            >Cabbages & Greens</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="header-main__item">
-                <a href="#" class="header-main__item-link">Prices Drop</a>
-              </li>
-              <li class="header-main__item">
-                <a href="#" class="header-main__item-link">Contact Us</a>
-              </li>
-            </ul>
-            <div class="header-main__right">
-              <i
-                class="fas fa-search header-main__right-item header-main__right-search"
-              ></i>
-              <div class="header-main__right-phone header-main__right-item">
-                <span>Call Us</span>
-                <span>(+800)345678</span>
-              </div>
-              <div class="header-main__right-price header-main__right-item">
-                <a href="#" class="header-main__right-price-link">
-                  <i class="fas fa-shopping-cart"></i>
-                  <span>$ 0.00</span>
-                </a>
-              </div>
+          <div class="header-main__right">
+            <i class="fas fa-search header-main__right-item header-main__right-search"></i>
+            <div class="header-main__right-phone header-main__right-item">
+              <span>Call Us</span>
+              <span>(+800)345678</span>
+            </div>
+            <div class="header-main__right-price header-main__right-item">
+              <a href="#" class="header-main__right-price-link">
+                <i class="fas fa-shopping-cart"></i>
+                <span>$ 0.00</span>
+              </a>
             </div>
           </div>
-        </div>
-      </header>
-      <!-- Slicky slider -->
-      <div class="slider">
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div
-                class="swiper__img-box"
-                style="
-                  background-image: url(http://demo.posthemes.com/pos_ecolife/modules/posslideshows/images/sample-1.jpg);
-                "
-              >
-                <div class="slider__content p-14">
-                  <p class="slider__content-title">NOT FRIED NOT BAKED</p>
-                  <h3>
-                    Freeze Dried Fruits <br />
-                    Pineapple Coconut
-                  </h3>
-                  <p>Free Shipping On Qualified Orders Over $35</p>
-                  <a href="#" class="btn">Shop now</a>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div
-                class="swiper__img-box"
-                style="
-                  background-image: url(http://demo.posthemes.com/pos_ecolife/modules/posslideshows/images/sample-2.jpg);
-                "
-              >
-                <div class="slider__content p-14">
-                  <p class="slider__content-title">100% NATURAL</p>
-                  <h3>
-                    Organic Fruits
-                    <br />
-                    Summer Drinkss
-                  </h3>
-                  <p>fresh New pack Brusting Fruits</p>
-                  <a href="#" class="btn">Shop now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Add Pagination -->
-          <div class="swiper-pagination"></div>
         </div>
       </div>
-      <div class="app__main p-14">
-        <!-- Banner -->
-        <div class="banner">
-          <div class="banner__item">
-            <i class="fas fa-truck-moving"></i>
-            <div class="banner__item-content">
-              <h3>Free Shipping</h3>
-              <p>On all orders over 175.00</p>
+    </header>
+    <!-- Slicky slider -->
+    <div class="slider">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper__img-box" style="
+                  background-image: url(http://demo.posthemes.com/pos_ecolife/modules/posslideshows/images/sample-1.jpg);
+                ">
+              <div class="slider__content p-14">
+                <p class="slider__content-title">NOT FRIED NOT BAKED</p>
+                <h3>
+                  Freeze Dried Fruits <br />
+                  Pineapple Coconut
+                </h3>
+                <p>Free Shipping On Qualified Orders Over $35</p>
+                <a href="#" class="btn">Shop now</a>
+              </div>
             </div>
           </div>
-          <div class="banner__item">
-            <i class="fas fa-globe"></i>
-            <div class="banner__item-content">
-              <h3>Free Returns</h3>
-              <p>Returns are free within 9 days</p>
-            </div>
-          </div>
-          <div class="banner__item">
-            <i class="far fa-credit-card"></i>
-            <div class="banner__item-content">
-              <h3>100% Payment Secure</h3>
-              <p>Your payment are safe with us.</p>
-            </div>
-          </div>
-          <div class="banner__item">
-            <i class="fas fa-phone-square-alt"></i>
-            <div class="banner__item-content">
-              <h3>Support 24/7</h3>
-              <p>Contact us 24 hours a day</p>
+          <div class="swiper-slide">
+            <div class="swiper__img-box" style="
+                  background-image: url(http://demo.posthemes.com/pos_ecolife/modules/posslideshows/images/sample-2.jpg);
+                ">
+              <div class="slider__content p-14">
+                <p class="slider__content-title">100% NATURAL</p>
+                <h3>
+                  Organic Fruits
+                  <br />
+                  Summer Drinkss
+                </h3>
+                <p>fresh New pack Brusting Fruits</p>
+                <a href="#" class="btn">Shop now</a>
+              </div>
             </div>
           </div>
         </div>
-        <!-- Product -->
-        <div class="product__best-sale">
-          <h3 class="product__type-name">Best Sellers</h3>
-          <p class="product__type-desc">
-            Add bestselling products to weekly line up
-          </p>
-          <div class="slide__product__container">
-            <div class="slider__type2">
-              <div class="swiper-container--2">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <li class="product cart--type-1">
-                      <div class="product__cart">
-                        <div class="product__actical">
-                          <a href="#" class="product__link">
-                            <div
-                              class="product__img"
-                              style="
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <div class="app__main p-14">
+      <!-- Banner -->
+      <div class="banner">
+        <div class="banner__item">
+          <i class="fas fa-truck-moving"></i>
+          <div class="banner__item-content">
+            <h3>Free Shipping</h3>
+            <p>On all orders over 175.00</p>
+          </div>
+        </div>
+        <div class="banner__item">
+          <i class="fas fa-globe"></i>
+          <div class="banner__item-content">
+            <h3>Free Returns</h3>
+            <p>Returns are free within 9 days</p>
+          </div>
+        </div>
+        <div class="banner__item">
+          <i class="far fa-credit-card"></i>
+          <div class="banner__item-content">
+            <h3>100% Payment Secure</h3>
+            <p>Your payment are safe with us.</p>
+          </div>
+        </div>
+        <div class="banner__item">
+          <i class="fas fa-phone-square-alt"></i>
+          <div class="banner__item-content">
+            <h3>Support 24/7</h3>
+            <p>Contact us 24 hours a day</p>
+          </div>
+        </div>
+      </div>
+      <!-- Product -->
+      <div class="product__best-sale">
+        <h3 class="product__type-name">Best Sellers</h3>
+        <p class="product__type-desc">
+          Add bestselling products to weekly line up
+        </p>
+        <div class="slide__product__container">
+          <div class="slider__type2">
+            <div class="swiper-container--2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
                                 background-image: url(http://demo.posthemes.com/pos_ecolife/86-home_default/brixton-patrol-all-terrain-anorak-jacket.jpg);
-                              "
-                            ></div>
-                            <div class="layout__icon">
-                              <div class="find__icon">
-                                <i class="fas fa-search"></i>
-                              </div>
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
                             </div>
-                          </a>
-                          <div class="product__info">
-                            <a href="#" class="product__type">Graphic Corner</a>
-                            <a href="#" class="product__name"
-                              >Brixton Patrol All Terrain Anorak Jacket 2</a
-                            >
-                            <div class="product__eval">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
-                            <span class="product__price">$129.00</span>
                           </div>
-                          <div class="cart__layout-bottom">
-                            <div class="cart__bottom-main">
-                              <div class="cart__add">
-                                Add to Cart
-                                <div class="cart__add-line"></div>
-                              </div>
-                              <div class="cart__icon">
-                                <i class="fas fa-random"></i>
-                                <i class="far fa-heart"></i>
-                              </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </li>
-                  </div>
-                  <div class="swiper-slide">
-                    <li class="product cart--type-1">
-                      <div class="product__cart">
-                        <div class="product__actical">
-                          <a href="#" class="product__link">
-                            <div
-                              class="product__img"
-                              style="
+                    </div>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
                                 background-image: url(http://demo.posthemes.com/pos_ecolife/24-home_default/brown-bear-vector-graphics.jpg);
-                              "
-                            ></div>
-                            <div class="layout__icon">
-                              <div class="find__icon">
-                                <i class="fas fa-search"></i>
-                              </div>
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
                             </div>
-                          </a>
-                          <div class="product__info">
-                            <a href="#" class="product__type">Graphic Corner</a>
-                            <a href="#" class="product__name"
-                              >Brixton Patrol All Terrain Anorak Jacket 2</a
-                            >
-                            <div class="product__eval">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
-                            <span class="product__price">$129.00</span>
                           </div>
-                          <div class="cart__layout-bottom">
-                            <div class="cart__bottom-main">
-                              <div class="cart__add">
-                                Add to Cart
-                                <div class="cart__add-line"></div>
-                              </div>
-                              <div class="cart__icon">
-                                <i class="fas fa-random"></i>
-                                <i class="far fa-heart"></i>
-                              </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </li>
-                  </div>
-                  <div class="swiper-slide">
-                    <li class="product cart--type-1">
-                      <div class="product__cart">
-                        <div class="product__actical">
-                          <a href="#" class="product__link">
-                            <div
-                              class="product__img"
-                              style="
+                    </div>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
                                 background-image: url(http://demo.posthemes.com/pos_ecolife/68-home_default/juicy-couture-juicy-quilted-terry-track-jacket.jpg);
-                              "
-                            ></div>
-                            <div class="layout__icon">
-                              <div class="find__icon">
-                                <i class="fas fa-search"></i>
-                              </div>
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
                             </div>
-                          </a>
-                          <div class="product__info">
-                            <a href="#" class="product__type">Graphic Corner</a>
-                            <a href="#" class="product__name"
-                              >Brixton Patrol All Terrain Anorak Jacket 2</a
-                            >
-                            <div class="product__eval">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
-                            <span class="product__price">$129.00</span>
                           </div>
-                          <div class="cart__layout-bottom">
-                            <div class="cart__bottom-main">
-                              <div class="cart__add">
-                                Add to Cart
-                                <div class="cart__add-line"></div>
-                              </div>
-                              <div class="cart__icon">
-                                <i class="fas fa-random"></i>
-                                <i class="far fa-heart"></i>
-                              </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </li>
-                  </div>
-                  <div class="swiper-slide">
-                    <li class="product cart--type-1">
-                      <div class="product__cart">
-                        <div class="product__actical">
-                          <a href="#" class="product__link">
-                            <div
-                              class="product__img"
-                              style="
+                    </div>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
                                 background-image: url(http://demo.posthemes.com/pos_ecolife/40-home_default/new-balance-fresh-foam-kaymin.jpg);
-                              "
-                            ></div>
-                            <div class="layout__icon">
-                              <div class="find__icon">
-                                <i class="fas fa-search"></i>
-                              </div>
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
                             </div>
-                          </a>
-                          <div class="product__info">
-                            <a href="#" class="product__type">Graphic Corner</a>
-                            <a href="#" class="product__name"
-                              >Brixton Patrol All Terrain Anorak Jacket 2</a
-                            >
-                            <div class="product__eval">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
-                            <span class="product__price">$129.00</span>
                           </div>
-                          <div class="cart__layout-bottom">
-                            <div class="cart__bottom-main">
-                              <div class="cart__add">
-                                Add to Cart
-                                <div class="cart__add-line"></div>
-                              </div>
-                              <div class="cart__icon">
-                                <i class="fas fa-random"></i>
-                                <i class="far fa-heart"></i>
-                              </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </li>
-                  </div>
-                  <div class="swiper-slide">
-                    <li class="product cart--type-1">
-                      <div class="product__cart">
-                        <div class="product__actical">
-                          <a href="#" class="product__link">
-                            <div
-                              class="product__img"
-                              style="
+                    </div>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
                                 background-image: url(http://demo.posthemes.com/pos_ecolife/92-home_default/originals-kaval-windbreaker-winter-jacket-2.jpg);
-                              "
-                            ></div>
-                            <div class="layout__icon">
-                              <div class="find__icon">
-                                <i class="fas fa-search"></i>
-                              </div>
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
                             </div>
-                          </a>
-                          <div class="product__info">
-                            <a href="#" class="product__type">Graphic Corner</a>
-                            <a href="#" class="product__name"
-                              >Brixton Patrol All Terrain Anorak Jacket 2</a
-                            >
-                            <div class="product__eval">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
-                            <span class="product__price">$129.00</span>
                           </div>
-                          <div class="cart__layout-bottom">
-                            <div class="cart__bottom-main">
-                              <div class="cart__add">
-                                Add to Cart
-                                <div class="cart__add-line"></div>
-                              </div>
-                              <div class="cart__icon">
-                                <i class="fas fa-random"></i>
-                                <i class="far fa-heart"></i>
-                              </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </li>
-                  </div>
-                  <div class="swiper-slide">
-                    <li class="product cart--type-1">
-                      <div class="product__cart">
-                        <div class="product__actical">
-                          <a href="#" class="product__link">
-                            <div
-                              class="product__img"
-                              style="
+                    </div>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
                                 background-image: url(http://demo.posthemes.com/pos_ecolife/45-home_default/-water-and-wind-resistant-insulated-jacket.jpg);
-                              "
-                            ></div>
-                            <div class="layout__icon">
-                              <div class="find__icon">
-                                <i class="fas fa-search"></i>
-                              </div>
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
                             </div>
-                          </a>
-                          <div class="product__info">
-                            <a href="#" class="product__type">Graphic Corner</a>
-                            <a href="#" class="product__name"
-                              >Brixton Patrol All Terrain Anorak Jacket 2</a
-                            >
-                            <div class="product__eval">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
-                            <span class="product__price">$129.00</span>
                           </div>
-                          <div class="cart__layout-bottom">
-                            <div class="cart__bottom-main">
-                              <div class="cart__add">
-                                Add to Cart
-                                <div class="cart__add-line"></div>
-                              </div>
-                              <div class="cart__icon">
-                                <i class="fas fa-random"></i>
-                                <i class="far fa-heart"></i>
-                              </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </li>
-                  </div>
-                  <div class="swiper-slide">
-                    <li class="product cart--type-1">
-                      <div class="product__cart">
-                        <div class="product__actical">
-                          <a href="#" class="product__link">
-                            <div
-                              class="product__img"
-                              style="
+                    </div>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
                                 background-image: url(http://demo.posthemes.com/pos_ecolife/86-home_default/brixton-patrol-all-terrain-anorak-jacket.jpg);
-                              "
-                            ></div>
-                            <div class="layout__icon">
-                              <div class="find__icon">
-                                <i class="fas fa-search"></i>
-                              </div>
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
                             </div>
-                          </a>
-                          <div class="product__info">
-                            <a href="#" class="product__type">Graphic Corner</a>
-                            <a href="#" class="product__name"
-                              >Brixton Patrol All Terrain Anorak Jacket 2</a
-                            >
-                            <div class="product__eval">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
-                            <span class="product__price">$129.00</span>
                           </div>
-                          <div class="cart__layout-bottom">
-                            <div class="cart__bottom-main">
-                              <div class="cart__add">
-                                Add to Cart
-                                <div class="cart__add-line"></div>
-                              </div>
-                              <div class="cart__icon">
-                                <i class="fas fa-random"></i>
-                                <i class="far fa-heart"></i>
-                              </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </li>
-                  </div>
-                  <div class="swiper-slide">
-                    <li class="product cart--type-1">
-                      <div class="product__cart">
-                        <div class="product__actical">
-                          <a href="#" class="product__link">
-                            <div
-                              class="product__img"
-                              style="
+                    </div>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
                                 background-image: url(http://demo.posthemes.com/pos_ecolife/28-home_default/juicy-couture-tricot-logo-stripe-jacket.jpg);
-                              "
-                            ></div>
-                            <div class="layout__icon">
-                              <div class="find__icon">
-                                <i class="fas fa-search"></i>
-                              </div>
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
                             </div>
-                          </a>
-                          <div class="product__info">
-                            <a href="#" class="product__type">Graphic Corner</a>
-                            <a href="#" class="product__name"
-                              >Brixton Patrol All Terrain Anorak Jacket 2</a
-                            >
-                            <div class="product__eval">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
-                            <span class="product__price">$129.00</span>
                           </div>
-                          <div class="cart__layout-bottom">
-                            <div class="cart__bottom-main">
-                              <div class="cart__add">
-                                Add to Cart
-                                <div class="cart__add-line"></div>
-                              </div>
-                              <div class="cart__icon">
-                                <i class="fas fa-random"></i>
-                                <i class="far fa-heart"></i>
-                              </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </li>
-                  </div>
-                  <div class="swiper-slide">
-                    <li class="product cart--type-1">
-                      <div class="product__cart">
-                        <div class="product__actical">
-                          <a href="#" class="product__link">
-                            <div
-                              class="product__img"
-                              style="
+                    </div>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
                                 background-image: url(http://demo.posthemes.com/pos_ecolife/73-home_default/originals-kaval-windbreaker-winter-jacket.jpg);
-                              "
-                            ></div>
-                            <div class="layout__icon">
-                              <div class="find__icon">
-                                <i class="fas fa-search"></i>
-                              </div>
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
                             </div>
-                          </a>
-                          <div class="product__info">
-                            <a href="#" class="product__type">Graphic Corner</a>
-                            <a href="#" class="product__name"
-                              >Brixton Patrol All Terrain Anorak Jacket 2</a
-                            >
-                            <div class="product__eval">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
-                            <span class="product__price">$129.00</span>
                           </div>
-                          <div class="cart__layout-bottom">
-                            <div class="cart__bottom-main">
-                              <div class="cart__add">
-                                Add to Cart
-                                <div class="cart__add-line"></div>
-                              </div>
-                              <div class="cart__icon">
-                                <i class="fas fa-random"></i>
-                                <i class="far fa-heart"></i>
-                              </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </li>
-                  </div>
-                  <div class="swiper-slide">
-                    <li class="product cart--type-1">
-                      <div class="product__cart">
-                        <div class="product__actical">
-                          <a href="#" class="product__link">
-                            <div
-                              class="product__img"
-                              style="
+                    </div>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
                                 background-image: url(http://demo.posthemes.com/pos_ecolife/86-home_default/brixton-patrol-all-terrain-anorak-jacket.jpg);
-                              "
-                            ></div>
-                            <div class="layout__icon">
-                              <div class="find__icon">
-                                <i class="fas fa-search"></i>
-                              </div>
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
                             </div>
-                          </a>
-                          <div class="product__info">
-                            <a href="#" class="product__type">Graphic Corner</a>
-                            <a href="#" class="product__name"
-                              >Brixton Patrol All Terrain Anorak Jacket 2</a
-                            >
-                            <div class="product__eval">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
-                            <span class="product__price">$129.00</span>
                           </div>
-                          <div class="cart__layout-bottom">
-                            <div class="cart__bottom-main">
-                              <div class="cart__add">
-                                Add to Cart
-                                <div class="cart__add-line"></div>
-                              </div>
-                              <div class="cart__icon">
-                                <i class="fas fa-random"></i>
-                                <i class="far fa-heart"></i>
-                              </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </li>
+                    </div>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide__btn">
+            <div class="swiper-button-next btn__arr btn__next-type-2"></div>
+
+            <div class="swiper-button-prev btn__arr btn__prev-type-2"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Popular Categories -->
+      <div class="product__popular-categories mt-60">
+        <h3 class="product__type-name">Popular Categories</h3>
+        <p class="product__type-desc">
+          Add bestselling products to weekly line up
+        </p>
+        <div class="slide__product__container">
+          <div class="slider__type2">
+            <div class="swiper-container--3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="product cart--type-3">
+                    <a href="" class="product__cart__type-2-link-img">
+                      <img src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-1.jpg"
+                        alt="img" />
+                    </a>
+                    <div class="product__decs">
+                      <h3 class="product__type-2-name">
+                        Fresh Vegetables
+                      </h3>
+                      <div class="number_product">17 Products</div>
+                      <div class="view-more">
+                        <a href="#">Shop now
+                          <i class="fas fa-play-circle"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product cart--type-3">
+                    <a href="" class="product__cart__type-2-link-img">
+                      <img src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-3.jpg"
+                        alt="img" />
+                    </a>
+                    <div class="product__decs">
+                      <h3 class="product__type-2-name">
+                        Fresh Vegetables
+                      </h3>
+                      <div class="number_product">17 Products</div>
+                      <div class="view-more">
+                        <a href="#">Shop now
+                          <i class="fas fa-play-circle"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product cart--type-3">
+                    <a href="" class="product__cart__type-2-link-img">
+                      <img src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-2.jpg"
+                        alt="img" />
+                    </a>
+                    <div class="product__decs">
+                      <h3 class="product__type-2-name">
+                        Fresh Vegetables
+                      </h3>
+                      <div class="number_product">17 Products</div>
+                      <div class="view-more">
+                        <a href="#">Shop now
+                          <i class="fas fa-play-circle"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product cart--type-3">
+                    <a href="" class="product__cart__type-2-link-img">
+                      <img src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-1.jpg"
+                        alt="img" />
+                    </a>
+                    <div class="product__decs">
+                      <h3 class="product__type-2-name">
+                        Fresh Vegetables
+                      </h3>
+                      <div class="number_product">17 Products</div>
+                      <div class="view-more">
+                        <a href="#">Shop now
+                          <i class="fas fa-play-circle"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product cart--type-3">
+                    <a href="" class="product__cart__type-2-link-img">
+                      <img src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-4.jpg"
+                        alt="img" />
+                    </a>
+                    <div class="product__decs">
+                      <h3 class="product__type-2-name">
+                        Fresh Vegetables
+                      </h3>
+                      <div class="number_product">17 Products</div>
+                      <div class="view-more">
+                        <a href="#">Shop now
+                          <i class="fas fa-play-circle"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product cart--type-3">
+                    <a href="" class="product__cart__type-2-link-img">
+                      <img src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-5.jpg"
+                        alt="img" />
+                    </a>
+                    <div class="product__decs">
+                      <h3 class="product__type-2-name">
+                        Fresh Vegetables
+                      </h3>
+                      <div class="number_product">17 Products</div>
+                      <div class="view-more">
+                        <a href="#">Shop now
+                          <i class="fas fa-play-circle"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product cart--type-3">
+                    <a href="" class="product__cart__type-2-link-img">
+                      <img src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-1.jpg"
+                        alt="img" />
+                    </a>
+                    <div class="product__decs">
+                      <h3 class="product__type-2-name">
+                        Fresh Vegetables
+                      </h3>
+                      <div class="number_product">17 Products</div>
+                      <div class="view-more">
+                        <a href="#">Shop now
+                          <i class="fas fa-play-circle"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product cart--type-3">
+                    <a href="" class="product__cart__type-2-link-img">
+                      <img src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-3.jpg"
+                        alt="img" />
+                    </a>
+                    <div class="product__decs">
+                      <h3 class="product__type-2-name">
+                        Fresh Vegetables
+                      </h3>
+                      <div class="number_product">17 Products</div>
+                      <div class="view-more">
+                        <a href="#">Shop now
+                          <i class="fas fa-play-circle"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product cart--type-3">
+                    <a href="" class="product__cart__type-2-link-img">
+                      <img src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-5.jpg"
+                        alt="img" />
+                    </a>
+                    <div class="product__decs">
+                      <h3 class="product__type-2-name">
+                        Fresh Vegetables
+                      </h3>
+                      <div class="number_product">17 Products</div>
+                      <div class="view-more">
+                        <a href="#">Shop now
+                          <i class="fas fa-play-circle"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product cart--type-3">
+                    <a href="" class="product__cart__type-2-link-img">
+                      <img src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-2.jpg"
+                        alt="img" />
+                    </a>
+                    <div class="product__decs">
+                      <h3 class="product__type-2-name">
+                        Fresh Vegetables
+                      </h3>
+                      <div class="number_product">17 Products</div>
+                      <div class="view-more">
+                        <a href="#">Shop now
+                          <i class="fas fa-play-circle"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product cart--type-3">
+                    <a href="" class="product__cart__type-2-link-img">
+                      <img src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-4.jpg"
+                        alt="img" />
+                    </a>
+                    <div class="product__decs">
+                      <h3 class="product__type-2-name">
+                        Fresh Vegetables
+                      </h3>
+                      <div class="number_product">17 Products</div>
+                      <div class="view-more">
+                        <a href="#">Shop now
+                          <i class="fas fa-play-circle"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product cart--type-3">
+                    <a href="" class="product__cart__type-2-link-img">
+                      <img src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-3.jpg"
+                        alt="img" />
+                    </a>
+                    <div class="product__decs">
+                      <h3 class="product__type-2-name">
+                        Fresh Vegetables
+                      </h3>
+                      <div class="number_product">17 Products</div>
+                      <div class="view-more">
+                        <a href="#">Shop now
+                          <i class="fas fa-play-circle"></i>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="slide__btn">
-              <div class="swiper-button-next btn__arr btn__next-type-2"></div>
-
-              <div class="swiper-button-prev btn__arr btn__prev-type-2"></div>
-            </div>
+          </div>
+          <div class="slide__btn slide__btn__type-3">
+            <div class="swiper-button-next btn__arr btn__next-type-3"></div>
+            <div class="swiper-button-prev btn__arr btn__prev-type-3"></div>
           </div>
         </div>
-
-        <!-- Popular Categories -->
-        <div class="product__popular-categories mt-60">
-          <h3 class="product__type-name">Popular Categories</h3>
+      </div>
+      <!-- Side-bar -->
+      <div class="product__side-bar">
+        <div class="product__side-bar-left">
+          <h3 class="product__type-name">Hot Deals</h3>
           <p class="product__type-desc">
-            Add bestselling products to weekly line up
+            Add hot products to weekly line up
           </p>
           <div class="slide__product__container">
             <div class="slider__type2">
-              <div class="swiper-container--3">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="product cart--type-3">
-                      <a href="" class="product__cart__type-2-link-img">
-                        <img
-                          src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-1.jpg"
-                          alt="img"
-                        />
-                      </a>
-                      <div class="product__decs">
-                        <h3 class="product__type-2-name">
-                          Fresh Vegetables
-                        </h3>
-                        <div class="number_product">17 Products</div>
-                        <div class="view-more">
-                          <a href="#">Shop now
-                            <i class="fas fa-play-circle"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="product cart--type-3">
-                      <a href="" class="product__cart__type-2-link-img">
-                        <img
-                          src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-3.jpg"
-                          alt="img"
-                        />
-                      </a>
-                      <div class="product__decs">
-                        <h3 class="product__type-2-name">
-                          Fresh Vegetables
-                        </h3>
-                        <div class="number_product">17 Products</div>
-                        <div class="view-more">
-                          <a href="#">Shop now
-                            <i class="fas fa-play-circle"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="product cart--type-3">
-                      <a href="" class="product__cart__type-2-link-img">
-                        <img
-                          src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-2.jpg"
-                          alt="img"
-                        />
-                      </a>
-                      <div class="product__decs">
-                        <h3 class="product__type-2-name">
-                          Fresh Vegetables
-                        </h3>
-                        <div class="number_product">17 Products</div>
-                        <div class="view-more">
-                          <a href="#">Shop now
-                            <i class="fas fa-play-circle"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="product cart--type-3">
-                      <a href="" class="product__cart__type-2-link-img">
-                        <img
-                          src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-1.jpg"
-                          alt="img"
-                        />
-                      </a>
-                      <div class="product__decs">
-                        <h3 class="product__type-2-name">
-                          Fresh Vegetables
-                        </h3>
-                        <div class="number_product">17 Products</div>
-                        <div class="view-more">
-                          <a href="#">Shop now
-                            <i class="fas fa-play-circle"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="product cart--type-3">
-                      <a href="" class="product__cart__type-2-link-img">
-                        <img
-                          src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-4.jpg"
-                          alt="img"
-                        />
-                      </a>
-                      <div class="product__decs">
-                        <h3 class="product__type-2-name">
-                          Fresh Vegetables
-                        </h3>
-                        <div class="number_product">17 Products</div>
-                        <div class="view-more">
-                          <a href="#">Shop now
-                            <i class="fas fa-play-circle"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="product cart--type-3">
-                      <a href="" class="product__cart__type-2-link-img">
-                        <img
-                          src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-5.jpg"
-                          alt="img"
-                        />
-                      </a>
-                      <div class="product__decs">
-                        <h3 class="product__type-2-name">
-                          Fresh Vegetables
-                        </h3>
-                        <div class="number_product">17 Products</div>
-                        <div class="view-more">
-                          <a href="#">Shop now
-                            <i class="fas fa-play-circle"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="product cart--type-3">
-                      <a href="" class="product__cart__type-2-link-img">
-                        <img
-                          src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-1.jpg"
-                          alt="img"
-                        />
-                      </a>
-                      <div class="product__decs">
-                        <h3 class="product__type-2-name">
-                          Fresh Vegetables
-                        </h3>
-                        <div class="number_product">17 Products</div>
-                        <div class="view-more">
-                          <a href="#">Shop now
-                            <i class="fas fa-play-circle"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="product cart--type-3">
-                      <a href="" class="product__cart__type-2-link-img">
-                        <img
-                          src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-3.jpg"
-                          alt="img"
-                        />
-                      </a>
-                      <div class="product__decs">
-                        <h3 class="product__type-2-name">
-                          Fresh Vegetables
-                        </h3>
-                        <div class="number_product">17 Products</div>
-                        <div class="view-more">
-                          <a href="#">Shop now
-                            <i class="fas fa-play-circle"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="product cart--type-3">
-                      <a href="" class="product__cart__type-2-link-img">
-                        <img
-                          src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-5.jpg"
-                          alt="img"
-                        />
-                      </a>
-                      <div class="product__decs">
-                        <h3 class="product__type-2-name">
-                          Fresh Vegetables
-                        </h3>
-                        <div class="number_product">17 Products</div>
-                        <div class="view-more">
-                          <a href="#">Shop now
-                            <i class="fas fa-play-circle"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="product cart--type-3">
-                      <a href="" class="product__cart__type-2-link-img">
-                        <img
-                          src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-2.jpg"
-                          alt="img"
-                        />
-                      </a>
-                      <div class="product__decs">
-                        <h3 class="product__type-2-name">
-                          Fresh Vegetables
-                        </h3>
-                        <div class="number_product">17 Products</div>
-                        <div class="view-more">
-                          <a href="#">Shop now
-                            <i class="fas fa-play-circle"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="product cart--type-3">
-                      <a href="" class="product__cart__type-2-link-img">
-                        <img
-                          src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-4.jpg"
-                          alt="img"
-                        />
-                      </a>
-                      <div class="product__decs">
-                        <h3 class="product__type-2-name">
-                          Fresh Vegetables
-                        </h3>
-                        <div class="number_product">17 Products</div>
-                        <div class="view-more">
-                          <a href="#">Shop now
-                            <i class="fas fa-play-circle"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="product cart--type-3">
-                      <a href="" class="product__cart__type-2-link-img">
-                        <img
-                          src="http://demo.posthemes.com/pos_ecolife/modules/poslistcategories/images/thumb-3.jpg"
-                          alt="img"
-                        />
-                      </a>
-                      <div class="product__decs">
-                        <h3 class="product__type-2-name">
-                          Fresh Vegetables
-                        </h3>
-                        <div class="number_product">17 Products</div>
-                        <div class="view-more">
-                          <a href="#">Shop now
-                            <i class="fas fa-play-circle"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>            
-            </div>
-            <div class="slide__btn slide__btn__type-3">
-              <div class="swiper-button-next btn__arr btn__next-type-3"></div>
-              <div class="swiper-button-prev btn__arr btn__prev-type-3"></div>
-            </div>
-          </div>
-        </div>
-        <div class="product__side-bar">
-          <div class="product__side-bar-left">
-            <h3 class="product__type-name">Hot Deals</h3>
-            <p class="product__type-desc">
-              Add hot products to weekly line up
-            </p>
-            <div class="slide__product__container">
-              <div class="slider__type2">
-                <div class="swiper-container--4 swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
-                  <div class="swiper-wrapper" id="swiper-wrapper-ef4b695207367db3" aria-live="polite">
-                    <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 10" style="width: 239.8px; margin-right: 30px;">
-                      <li class="product cart--type-1">
-                        <div class="product__cart">
-                          <div class="product__actical">
-                            <a href="#" class="product__link">
-                              <div class="product__img" style="
+              <div
+                class="swiper-container--4 swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
+                <div class="swiper-wrapper" id="swiper-wrapper-ef4b695207367db3" aria-live="polite">
+                  <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 10"
+                    style="width: 239.8px; margin-right: 30px;">
+                    <li class="product cart--type-1">
+                      <div class="product__cart">
+                        <div class="product__actical">
+                          <a href="#" class="product__link">
+                            <div class="product__img" style="
                                   background-image: url(http://demo.posthemes.com/pos_ecolife/86-home_default/brixton-patrol-all-terrain-anorak-jacket.jpg);
                                 "></div>
-                              <div class="layout__icon">
-                                <div class="find__icon">
-                                  <i class="fas fa-search"></i>
-                                </div>
+                            <div class="layout__icon">
+                              <div class="find__icon">
+                                <i class="fas fa-search"></i>
                               </div>
-                            </a>
-                            <div class="product__info">
-                              <a href="#" class="product__type">Graphic Corner</a>
-                              <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
-                              <div class="product__eval">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                              </div>
-                              <span class="product__price">$129.00</span>
                             </div>
-                            <div class="cart__layout-bottom">
-                              <div class="cart__bottom-main">
-                                <div class="cart__add">
-                                  Add to Cart
-                                  <div class="cart__add-line"></div>
-                                </div>
-                                <div class="cart__icon">
-                                  <i class="fas fa-random"></i>
-                                  <i class="far fa-heart"></i>
-                                </div>
+                          </a>
+                          <div class="product__info">
+                            <a href="#" class="product__type">Graphic Corner</a>
+                            <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                            <div class="product__eval">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <span class="product__price">$129.00</span>
+                          </div>
+                          <div class="cart__layout-bottom">
+                            <div class="cart__bottom-main">
+                              <div class="cart__add">
+                                Add to Cart
+                                <div class="cart__add-line"></div>
+                              </div>
+                              <div class="cart__icon">
+                                <i class="fas fa-random"></i>
+                                <i class="far fa-heart"></i>
                               </div>
                             </div>
                           </div>
                         </div>
-                      </li>
-                    </div>
-                    <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 10" style="width: 239.8px; margin-right: 30px;">
-                      <li class="product cart--type-1">
-                        <div class="product__cart">
-                          <div class="product__actical">
-                            <a href="#" class="product__link">
-                              <div class="product__img" style="
+                      </div>
+                    </li>
+                  </div>
+                  <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 10"
+                    style="width: 239.8px; margin-right: 30px;">
+                    <li class="product cart--type-1">
+                      <div class="product__cart">
+                        <div class="product__actical">
+                          <a href="#" class="product__link">
+                            <div class="product__img" style="
                                   background-image: url(http://demo.posthemes.com/pos_ecolife/24-home_default/brown-bear-vector-graphics.jpg);
                                 "></div>
-                              <div class="layout__icon">
-                                <div class="find__icon">
-                                  <i class="fas fa-search"></i>
-                                </div>
+                            <div class="layout__icon">
+                              <div class="find__icon">
+                                <i class="fas fa-search"></i>
                               </div>
-                            </a>
-                            <div class="product__info">
-                              <a href="#" class="product__type">Graphic Corner</a>
-                              <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
-                              <div class="product__eval">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                              </div>
-                              <span class="product__price">$129.00</span>
                             </div>
-                            <div class="cart__layout-bottom">
-                              <div class="cart__bottom-main">
-                                <div class="cart__add">
-                                  Add to Cart
-                                  <div class="cart__add-line"></div>
-                                </div>
-                                <div class="cart__icon">
-                                  <i class="fas fa-random"></i>
-                                  <i class="far fa-heart"></i>
-                                </div>
+                          </a>
+                          <div class="product__info">
+                            <a href="#" class="product__type">Graphic Corner</a>
+                            <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                            <div class="product__eval">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <span class="product__price">$129.00</span>
+                          </div>
+                          <div class="cart__layout-bottom">
+                            <div class="cart__bottom-main">
+                              <div class="cart__add">
+                                Add to Cart
+                                <div class="cart__add-line"></div>
+                              </div>
+                              <div class="cart__icon">
+                                <i class="fas fa-random"></i>
+                                <i class="far fa-heart"></i>
                               </div>
                             </div>
                           </div>
                         </div>
-                      </li>
-                    </div>
-                    <div class="swiper-slide" role="group" aria-label="3 / 10" style="width: 239.8px; margin-right: 30px;">
-                      <li class="product cart--type-1">
-                        <div class="product__cart">
-                          <div class="product__actical">
-                            <a href="#" class="product__link">
-                              <div class="product__img" style="
+                      </div>
+                    </li>
+                  </div>
+                  <div class="swiper-slide" role="group" aria-label="3 / 10"
+                    style="width: 239.8px; margin-right: 30px;">
+                    <li class="product cart--type-1">
+                      <div class="product__cart">
+                        <div class="product__actical">
+                          <a href="#" class="product__link">
+                            <div class="product__img" style="
                                   background-image: url(http://demo.posthemes.com/pos_ecolife/68-home_default/juicy-couture-juicy-quilted-terry-track-jacket.jpg);
                                 "></div>
-                              <div class="layout__icon">
-                                <div class="find__icon">
-                                  <i class="fas fa-search"></i>
-                                </div>
+                            <div class="layout__icon">
+                              <div class="find__icon">
+                                <i class="fas fa-search"></i>
                               </div>
-                            </a>
-                            <div class="product__info">
-                              <a href="#" class="product__type">Graphic Corner</a>
-                              <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
-                              <div class="product__eval">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                              </div>
-                              <span class="product__price">$129.00</span>
                             </div>
-                            <div class="cart__layout-bottom">
-                              <div class="cart__bottom-main">
-                                <div class="cart__add">
-                                  Add to Cart
-                                  <div class="cart__add-line"></div>
-                                </div>
-                                <div class="cart__icon">
-                                  <i class="fas fa-random"></i>
-                                  <i class="far fa-heart"></i>
-                                </div>
+                          </a>
+                          <div class="product__info">
+                            <a href="#" class="product__type">Graphic Corner</a>
+                            <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                            <div class="product__eval">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <span class="product__price">$129.00</span>
+                          </div>
+                          <div class="cart__layout-bottom">
+                            <div class="cart__bottom-main">
+                              <div class="cart__add">
+                                Add to Cart
+                                <div class="cart__add-line"></div>
+                              </div>
+                              <div class="cart__icon">
+                                <i class="fas fa-random"></i>
+                                <i class="far fa-heart"></i>
                               </div>
                             </div>
                           </div>
                         </div>
-                      </li>
-                    </div>
-                    <div class="swiper-slide" role="group" aria-label="4 / 10" style="width: 239.8px; margin-right: 30px;">
-                      <li class="product cart--type-1">
-                        <div class="product__cart">
-                          <div class="product__actical">
-                            <a href="#" class="product__link">
-                              <div class="product__img" style="
+                      </div>
+                    </li>
+                  </div>
+                  <div class="swiper-slide" role="group" aria-label="4 / 10"
+                    style="width: 239.8px; margin-right: 30px;">
+                    <li class="product cart--type-1">
+                      <div class="product__cart">
+                        <div class="product__actical">
+                          <a href="#" class="product__link">
+                            <div class="product__img" style="
                                   background-image: url(http://demo.posthemes.com/pos_ecolife/40-home_default/new-balance-fresh-foam-kaymin.jpg);
                                 "></div>
-                              <div class="layout__icon">
-                                <div class="find__icon">
-                                  <i class="fas fa-search"></i>
-                                </div>
+                            <div class="layout__icon">
+                              <div class="find__icon">
+                                <i class="fas fa-search"></i>
                               </div>
-                            </a>
-                            <div class="product__info">
-                              <a href="#" class="product__type">Graphic Corner</a>
-                              <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
-                              <div class="product__eval">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                              </div>
-                              <span class="product__price">$129.00</span>
                             </div>
-                            <div class="cart__layout-bottom">
-                              <div class="cart__bottom-main">
-                                <div class="cart__add">
-                                  Add to Cart
-                                  <div class="cart__add-line"></div>
-                                </div>
-                                <div class="cart__icon">
-                                  <i class="fas fa-random"></i>
-                                  <i class="far fa-heart"></i>
-                                </div>
+                          </a>
+                          <div class="product__info">
+                            <a href="#" class="product__type">Graphic Corner</a>
+                            <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                            <div class="product__eval">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <span class="product__price">$129.00</span>
+                          </div>
+                          <div class="cart__layout-bottom">
+                            <div class="cart__bottom-main">
+                              <div class="cart__add">
+                                Add to Cart
+                                <div class="cart__add-line"></div>
+                              </div>
+                              <div class="cart__icon">
+                                <i class="fas fa-random"></i>
+                                <i class="far fa-heart"></i>
                               </div>
                             </div>
                           </div>
                         </div>
-                      </li>
-                    </div>
-                    <div class="swiper-slide" role="group" aria-label="5 / 10" style="width: 239.8px; margin-right: 30px;">
-                      <li class="product cart--type-1">
-                        <div class="product__cart">
-                          <div class="product__actical">
-                            <a href="#" class="product__link">
-                              <div class="product__img" style="
+                      </div>
+                    </li>
+                  </div>
+                  <div class="swiper-slide" role="group" aria-label="5 / 10"
+                    style="width: 239.8px; margin-right: 30px;">
+                    <li class="product cart--type-1">
+                      <div class="product__cart">
+                        <div class="product__actical">
+                          <a href="#" class="product__link">
+                            <div class="product__img" style="
                                   background-image: url(http://demo.posthemes.com/pos_ecolife/92-home_default/originals-kaval-windbreaker-winter-jacket-2.jpg);
                                 "></div>
-                              <div class="layout__icon">
-                                <div class="find__icon">
-                                  <i class="fas fa-search"></i>
-                                </div>
+                            <div class="layout__icon">
+                              <div class="find__icon">
+                                <i class="fas fa-search"></i>
                               </div>
-                            </a>
-                            <div class="product__info">
-                              <a href="#" class="product__type">Graphic Corner</a>
-                              <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
-                              <div class="product__eval">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                              </div>
-                              <span class="product__price">$129.00</span>
                             </div>
-                            <div class="cart__layout-bottom">
-                              <div class="cart__bottom-main">
-                                <div class="cart__add">
-                                  Add to Cart
-                                  <div class="cart__add-line"></div>
-                                </div>
-                                <div class="cart__icon">
-                                  <i class="fas fa-random"></i>
-                                  <i class="far fa-heart"></i>
-                                </div>
+                          </a>
+                          <div class="product__info">
+                            <a href="#" class="product__type">Graphic Corner</a>
+                            <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                            <div class="product__eval">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <span class="product__price">$129.00</span>
+                          </div>
+                          <div class="cart__layout-bottom">
+                            <div class="cart__bottom-main">
+                              <div class="cart__add">
+                                Add to Cart
+                                <div class="cart__add-line"></div>
+                              </div>
+                              <div class="cart__icon">
+                                <i class="fas fa-random"></i>
+                                <i class="far fa-heart"></i>
                               </div>
                             </div>
                           </div>
                         </div>
-                      </li>
-                    </div>
-                    <div class="swiper-slide" role="group" aria-label="6 / 10" style="width: 239.8px; margin-right: 30px;">
-                      <li class="product cart--type-1">
-                        <div class="product__cart">
-                          <div class="product__actical">
-                            <a href="#" class="product__link">
-                              <div class="product__img" style="
+                      </div>
+                    </li>
+                  </div>
+                  <div class="swiper-slide" role="group" aria-label="6 / 10"
+                    style="width: 239.8px; margin-right: 30px;">
+                    <li class="product cart--type-1">
+                      <div class="product__cart">
+                        <div class="product__actical">
+                          <a href="#" class="product__link">
+                            <div class="product__img" style="
                                   background-image: url(http://demo.posthemes.com/pos_ecolife/45-home_default/-water-and-wind-resistant-insulated-jacket.jpg);
                                 "></div>
-                              <div class="layout__icon">
-                                <div class="find__icon">
-                                  <i class="fas fa-search"></i>
-                                </div>
+                            <div class="layout__icon">
+                              <div class="find__icon">
+                                <i class="fas fa-search"></i>
                               </div>
-                            </a>
-                            <div class="product__info">
-                              <a href="#" class="product__type">Graphic Corner</a>
-                              <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
-                              <div class="product__eval">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                              </div>
-                              <span class="product__price">$129.00</span>
                             </div>
-                            <div class="cart__layout-bottom">
-                              <div class="cart__bottom-main">
-                                <div class="cart__add">
-                                  Add to Cart
-                                  <div class="cart__add-line"></div>
-                                </div>
-                                <div class="cart__icon">
-                                  <i class="fas fa-random"></i>
-                                  <i class="far fa-heart"></i>
-                                </div>
+                          </a>
+                          <div class="product__info">
+                            <a href="#" class="product__type">Graphic Corner</a>
+                            <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                            <div class="product__eval">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <span class="product__price">$129.00</span>
+                          </div>
+                          <div class="cart__layout-bottom">
+                            <div class="cart__bottom-main">
+                              <div class="cart__add">
+                                Add to Cart
+                                <div class="cart__add-line"></div>
+                              </div>
+                              <div class="cart__icon">
+                                <i class="fas fa-random"></i>
+                                <i class="far fa-heart"></i>
                               </div>
                             </div>
                           </div>
                         </div>
-                      </li>
-                    </div>
-                    
-                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                      </div>
+                    </li>
+                  </div>
+
+                  <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
               </div>
               <div class="slide__btn">
-                <div class="swiper-button-next btn__arr btn__next-type-2" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-ef4b695207367db3" aria-disabled="false"></div>
-  
-                <div class="swiper-button-prev btn__arr btn__prev-type-2 swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-ef4b695207367db3" aria-disabled="true"></div>
+                <div class="swiper-button-next btn__arr btn__next-type-4" tabindex="0" role="button"
+                  aria-label="Next slide" aria-controls="swiper-wrapper-ef4b695207367db3" aria-disabled="false"></div>
+                <div class="swiper-button-prev btn__arr btn__prev-type-4 swiper-button-disabled" tabindex="-1"
+                  role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-ef4b695207367db3"
+                  aria-disabled="true"></div>
               </div>
             </div>
           </div>
@@ -1425,12 +1266,899 @@
 
           </div>
         </div>
+        <!-- Side__bar right -->
         <div class="product__side-bar-right">
-
+          <h3 class="product__type-name">Hot Deals</h3>
+          <p class="product__type-desc">
+            Add hot products to weekly line up
+          </p>
+          <div class="slide__product__container">
+            <div class="slider__type2">
+              <div
+                class="swiper-container--5 swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
+                <div class="swiper-wrapper" id="swiper-wrapper-ef4b695207367db3" aria-live="polite"
+                  style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+                  <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 6"
+                    style="width: 440px; margin-right: 30px;">
+                    <li class="product cart--type-1">
+                      <div class="product__cart">
+                        <div class="product__actical">
+                          <a href="#" class="product__link">
+                            <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/86-home_default/brixton-patrol-all-terrain-anorak-jacket.jpg);
+                              "></div>
+                            <div class="layout__icon">
+                              <div class="find__icon">
+                                <i class="fas fa-search"></i>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="product__info">
+                            <a href="#" class="product__type">Graphic Corner</a>
+                            <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                            <div class="product__eval">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <span class="product__price">$129.00</span>
+                          </div>
+                          <div class="cart__layout-bottom">
+                            <div class="cart__bottom-main">
+                              <div class="cart__add">
+                                Add to Cart
+                                <div class="cart__add-line"></div>
+                              </div>
+                              <div class="cart__icon">
+                                <i class="fas fa-random"></i>
+                                <i class="far fa-heart"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="product cart--type-1">
+                      <div class="product__cart">
+                        <div class="product__actical">
+                          <a href="#" class="product__link">
+                            <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/24-home_default/brown-bear-vector-graphics.jpg);
+                              "></div>
+                            <div class="layout__icon">
+                              <div class="find__icon">
+                                <i class="fas fa-search"></i>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="product__info">
+                            <a href="#" class="product__type">Graphic Corner</a>
+                            <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                            <div class="product__eval">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <span class="product__price">$129.00</span>
+                          </div>
+                          <div class="cart__layout-bottom">
+                            <div class="cart__bottom-main">
+                              <div class="cart__add">
+                                Add to Cart
+                                <div class="cart__add-line"></div>
+                              </div>
+                              <div class="cart__icon">
+                                <i class="fas fa-random"></i>
+                                <i class="far fa-heart"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div class="swiper-slide" role="group" aria-label="3 / 6" style="width: 440px; margin-right: 30px;">
+                    <li class="product cart--type-1">
+                      <div class="product__cart">
+                        <div class="product__actical">
+                          <a href="#" class="product__link">
+                            <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/68-home_default/juicy-couture-juicy-quilted-terry-track-jacket.jpg);
+                              "></div>
+                            <div class="layout__icon">
+                              <div class="find__icon">
+                                <i class="fas fa-search"></i>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="product__info">
+                            <a href="#" class="product__type">Graphic Corner</a>
+                            <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                            <div class="product__eval">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <span class="product__price">$129.00</span>
+                          </div>
+                          <div class="cart__layout-bottom">
+                            <div class="cart__bottom-main">
+                              <div class="cart__add">
+                                Add to Cart
+                                <div class="cart__add-line"></div>
+                              </div>
+                              <div class="cart__icon">
+                                <i class="fas fa-random"></i>
+                                <i class="far fa-heart"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="product cart--type-1">
+                      <div class="product__cart">
+                        <div class="product__actical">
+                          <a href="#" class="product__link">
+                            <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/40-home_default/new-balance-fresh-foam-kaymin.jpg);
+                              "></div>
+                            <div class="layout__icon">
+                              <div class="find__icon">
+                                <i class="fas fa-search"></i>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="product__info">
+                            <a href="#" class="product__type">Graphic Corner</a>
+                            <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                            <div class="product__eval">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <span class="product__price">$129.00</span>
+                          </div>
+                          <div class="cart__layout-bottom">
+                            <div class="cart__bottom-main">
+                              <div class="cart__add">
+                                Add to Cart
+                                <div class="cart__add-line"></div>
+                              </div>
+                              <div class="cart__icon">
+                                <i class="fas fa-random"></i>
+                                <i class="far fa-heart"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div class="swiper-slide" role="group" aria-label="5 / 6" style="width: 440px; margin-right: 30px;">
+                    <li class="product cart--type-1">
+                      <div class="product__cart">
+                        <div class="product__actical">
+                          <a href="#" class="product__link">
+                            <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/92-home_default/originals-kaval-windbreaker-winter-jacket-2.jpg);
+                              "></div>
+                            <div class="layout__icon">
+                              <div class="find__icon">
+                                <i class="fas fa-search"></i>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="product__info">
+                            <a href="#" class="product__type">Graphic Corner</a>
+                            <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                            <div class="product__eval">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <span class="product__price">$129.00</span>
+                          </div>
+                          <div class="cart__layout-bottom">
+                            <div class="cart__bottom-main">
+                              <div class="cart__add">
+                                Add to Cart
+                                <div class="cart__add-line"></div>
+                              </div>
+                              <div class="cart__icon">
+                                <i class="fas fa-random"></i>
+                                <i class="far fa-heart"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="product cart--type-1">
+                      <div class="product__cart">
+                        <div class="product__actical">
+                          <a href="#" class="product__link">
+                            <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/45-home_default/-water-and-wind-resistant-insulated-jacket.jpg);
+                              "></div>
+                            <div class="layout__icon">
+                              <div class="find__icon">
+                                <i class="fas fa-search"></i>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="product__info">
+                            <a href="#" class="product__type">Graphic Corner</a>
+                            <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                            <div class="product__eval">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <span class="product__price">$129.00</span>
+                          </div>
+                          <div class="cart__layout-bottom">
+                            <div class="cart__bottom-main">
+                              <div class="cart__add">
+                                Add to Cart
+                                <div class="cart__add-line"></div>
+                              </div>
+                              <div class="cart__icon">
+                                <i class="fas fa-random"></i>
+                                <i class="far fa-heart"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div class="swiper-slide" role="group" aria-label="5 / 6" style="width: 440px; margin-right: 30px;">
+                    <li class="product cart--type-1">
+                      <div class="product__cart">
+                        <div class="product__actical">
+                          <a href="#" class="product__link">
+                            <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/92-home_default/originals-kaval-windbreaker-winter-jacket-2.jpg);
+                              "></div>
+                            <div class="layout__icon">
+                              <div class="find__icon">
+                                <i class="fas fa-search"></i>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="product__info">
+                            <a href="#" class="product__type">Graphic Corner</a>
+                            <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                            <div class="product__eval">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <span class="product__price">$129.00</span>
+                          </div>
+                          <div class="cart__layout-bottom">
+                            <div class="cart__bottom-main">
+                              <div class="cart__add">
+                                Add to Cart
+                                <div class="cart__add-line"></div>
+                              </div>
+                              <div class="cart__icon">
+                                <i class="fas fa-random"></i>
+                                <i class="far fa-heart"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="product cart--type-1">
+                      <div class="product__cart">
+                        <div class="product__actical">
+                          <a href="#" class="product__link">
+                            <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/45-home_default/-water-and-wind-resistant-insulated-jacket.jpg);
+                              "></div>
+                            <div class="layout__icon">
+                              <div class="find__icon">
+                                <i class="fas fa-search"></i>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="product__info">
+                            <a href="#" class="product__type">Graphic Corner</a>
+                            <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                            <div class="product__eval">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <span class="product__price">$129.00</span>
+                          </div>
+                          <div class="cart__layout-bottom">
+                            <div class="cart__bottom-main">
+                              <div class="cart__add">
+                                Add to Cart
+                                <div class="cart__add-line"></div>
+                              </div>
+                              <div class="cart__icon">
+                                <i class="fas fa-random"></i>
+                                <i class="far fa-heart"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div class="swiper-slide" role="group" aria-label="5 / 6" style="width: 440px; margin-right: 30px;">
+                    <li class="product cart--type-1">
+                      <div class="product__cart">
+                        <div class="product__actical">
+                          <a href="#" class="product__link">
+                            <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/92-home_default/originals-kaval-windbreaker-winter-jacket-2.jpg);
+                              "></div>
+                            <div class="layout__icon">
+                              <div class="find__icon">
+                                <i class="fas fa-search"></i>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="product__info">
+                            <a href="#" class="product__type">Graphic Corner</a>
+                            <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                            <div class="product__eval">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <span class="product__price">$129.00</span>
+                          </div>
+                          <div class="cart__layout-bottom">
+                            <div class="cart__bottom-main">
+                              <div class="cart__add">
+                                Add to Cart
+                                <div class="cart__add-line"></div>
+                              </div>
+                              <div class="cart__icon">
+                                <i class="fas fa-random"></i>
+                                <i class="far fa-heart"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="product cart--type-1">
+                      <div class="product__cart">
+                        <div class="product__actical">
+                          <a href="#" class="product__link">
+                            <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/45-home_default/-water-and-wind-resistant-insulated-jacket.jpg);
+                              "></div>
+                            <div class="layout__icon">
+                              <div class="find__icon">
+                                <i class="fas fa-search"></i>
+                              </div>
+                            </div>
+                          </a>
+                          <div class="product__info">
+                            <a href="#" class="product__type">Graphic Corner</a>
+                            <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                            <div class="product__eval">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <span class="product__price">$129.00</span>
+                          </div>
+                          <div class="cart__layout-bottom">
+                            <div class="cart__bottom-main">
+                              <div class="cart__add">
+                                Add to Cart
+                                <div class="cart__add-line"></div>
+                              </div>
+                              <div class="cart__icon">
+                                <i class="fas fa-random"></i>
+                                <i class="far fa-heart"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+              </div>
+              <div class="slide__btn">
+                <div class="swiper-button-next btn__arr btn__next-type-5" tabindex="0" role="button"
+                  aria-label="Next slide" aria-controls="swiper-wrapper-ef4b695207367db3" aria-disabled="false"></div>
+                <div class="swiper-button-prev btn__arr btn__prev-type-5 swiper-button-disabled" tabindex="-1"
+                  role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-ef4b695207367db3"
+                  aria-disabled="true"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <div class="banner__img-advertisment mt-30">
+        <a href="#" class="banner__img-advertisment-left">
+          <div class="img--hover">
+            <img src="http://demo.posthemes.com/pos_ecolife/img/cms/1_1.jpg" alt="img">
+          </div>
+
+        </a>
+        <a href="#" class="banner__img-advertisment-middle img--hover">
+          <div class="img--hover">
+            <img src="http://demo.posthemes.com/pos_ecolife/img/cms/2_1.jpg" alt="img">
+          </div>
+
+        </a>
+        <a href="#" class="banner__img-advertisment-right img--hover">
+          <div class="img--hover">
+            <img src="http://demo.posthemes.com/pos_ecolife/img/cms/3_1.jpg" alt="img">
+          </div>
+        </a>
+      </div>
+      <!-- Featured Products -->
+      <div class="product__featured mt-30">
+        <h3 class="product__type-name">Featured Products</h3>
+        <p class="product__type-desc">
+          Add featured products to weekly line up
+        </p>
+        <div class="slide__product__container">
+          <div class="slider__type2">
+            <div class="swiper-container--6">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/86-home_default/brixton-patrol-all-terrain-anorak-jacket.jpg);
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/24-home_default/brown-bear-vector-graphics.jpg);
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/68-home_default/juicy-couture-juicy-quilted-terry-track-jacket.jpg);
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/40-home_default/new-balance-fresh-foam-kaymin.jpg);
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </div>
+              
+                <div class="swiper-slide">
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/92-home_default/originals-kaval-windbreaker-winter-jacket-2.jpg);
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/45-home_default/-water-and-wind-resistant-insulated-jacket.jpg);
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </div>
+                
+                <div class="swiper-slide">
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/86-home_default/brixton-patrol-all-terrain-anorak-jacket.jpg);
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/28-home_default/juicy-couture-tricot-logo-stripe-jacket.jpg);
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/73-home_default/originals-kaval-windbreaker-winter-jacket.jpg);
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="product cart--type-1">
+                    <div class="product__cart">
+                      <div class="product__actical">
+                        <a href="#" class="product__link">
+                          <div class="product__img" style="
+                                background-image: url(http://demo.posthemes.com/pos_ecolife/86-home_default/brixton-patrol-all-terrain-anorak-jacket.jpg);
+                              "></div>
+                          <div class="layout__icon">
+                            <div class="find__icon">
+                              <i class="fas fa-search"></i>
+                            </div>
+                          </div>
+                        </a>
+                        <div class="product__info">
+                          <a href="#" class="product__type">Graphic Corner</a>
+                          <a href="#" class="product__name">Brixton Patrol All Terrain Anorak Jacket 2</a>
+                          <div class="product__eval">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <span class="product__price">$129.00</span>
+                        </div>
+                        <div class="cart__layout-bottom">
+                          <div class="cart__bottom-main">
+                            <div class="cart__add">
+                              Add to Cart
+                              <div class="cart__add-line"></div>
+                            </div>
+                            <div class="cart__icon">
+                              <i class="fas fa-random"></i>
+                              <i class="far fa-heart"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide__btn">
+            <div class="swiper-button-next btn__arr btn__next-type-6"></div>
+
+            <div class="swiper-button-prev btn__arr btn__prev-type-6"></div>
+          </div>
+        </div>
+      </div>
+
     </div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/main.js"></script>
-  </body>
+</body>
+
 </html>
