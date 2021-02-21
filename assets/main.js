@@ -22,7 +22,7 @@ document.querySelector(".header-main").addEventListener("click", () => {
     item.classList.remove("active");
   });
 });
-var swiper = new Swiper(".swiper-container", {
+var swiper1 = new Swiper(".swiper-container", {
   spaceBetween: 30,
   effect: "fade",
   autoplay: {
@@ -38,19 +38,27 @@ window.addEventListener("scroll", () => {
   if (window.scrollY > 0) navBar.classList.add("active-drop");
   else navBar.classList.remove("active-drop");
 });
-var swiper = new Swiper(".swiper-container--2", {
+var swiper2 = new Swiper(".swiper-container--2", {
   slidesPerView: 5,
   spaceBetween: 30,
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".btn__next-type-2",
+    prevEl: ".btn__prev-type-2",
   },
 });
-var swiper = new Swiper(".swiper-container--3", {
+var swiper3 = new Swiper(".swiper-container--3", {
   slidesPerView: 3,
   spaceBetween: 30,
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".btn__next-type-3",
+    prevEl: ".btn__prev-type-3",
+  },
+});
+var swiper4 = new Swiper(".swiper-container--4", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".btn__next-type-3",
+    prevEl: ".btn__prev-type-3",
   },
 });

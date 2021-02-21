@@ -33,3 +33,16 @@
 .mt-60 {
   margin-top: 60px;
 }
+.btn__arr {
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 50% !important;
+  border: 1px solid #999 !important;
+  transition: background-color linear 0.3s;
+  outline: none;
+}
+.btn__next-type-2:hover,
+.btn__prev-type-2:hover {
+  background-color: #4fb68d;
+  color: #fff !important;
+}
