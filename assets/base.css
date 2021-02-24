@@ -58,3 +58,22 @@
 .img--hover:hover img {
   transform: scale(1.03);
 }
+
+.item__line {
+  position: absolute;
+  display: block;
+  height: 1px;
+  background: rgb(179, 178, 178);
+  width: 100%;
+  left: 0;
+  top: 40px;
+}
+.item__line::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: -2px;
+  height: 2px;
+  width: 40%;
+  background: #4fb68d;
+}

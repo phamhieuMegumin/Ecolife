@@ -12,17 +12,13 @@ document
         }
       });
     });
-
-    // item.addEventListener("click", () => {
-    //   listItems[index].classList.toggle("active");
-    // });
   });
 document.querySelector(".header-main").addEventListener("click", () => {
   listItems.forEach((item) => {
     item.classList.remove("active");
   });
 });
-var swiper1 = new Swiper(".swiper-container", {
+new Swiper(".swiper-container", {
   spaceBetween: 30,
   effect: "fade",
   autoplay: {
@@ -38,7 +34,7 @@ window.addEventListener("scroll", () => {
   if (window.scrollY > 0) navBar.classList.add("active-drop");
   else navBar.classList.remove("active-drop");
 });
-var swiper2 = new Swiper(".swiper-container--2", {
+new Swiper(".swiper-container--2", {
   slidesPerView: 5,
   spaceBetween: 30,
   navigation: {
@@ -46,7 +42,7 @@ var swiper2 = new Swiper(".swiper-container--2", {
     prevEl: ".btn__prev-type-2",
   },
 });
-var swiper3 = new Swiper(".swiper-container--3", {
+new Swiper(".swiper-container--3", {
   slidesPerView: 3,
   spaceBetween: 30,
   navigation: {
@@ -54,7 +50,7 @@ var swiper3 = new Swiper(".swiper-container--3", {
     prevEl: ".btn__prev-type-3",
   },
 });
-var swiper4 = new Swiper(".swiper-container--4", {
+new Swiper(".swiper-container--4", {
   slidesPerView: 1,
   spaceBetween: 30,
   navigation: {
@@ -62,7 +58,7 @@ var swiper4 = new Swiper(".swiper-container--4", {
     prevEl: ".btn__prev-type-4",
   },
 });
-var swiper5 = new Swiper(".swiper-container--5", {
+new Swiper(".swiper-container--5", {
   slidesPerView: 4,
   spaceBetween: 30,
   navigation: {
@@ -70,7 +66,7 @@ var swiper5 = new Swiper(".swiper-container--5", {
     prevEl: ".btn__prev-type-5",
   },
 });
-var swiper6 = new Swiper(".swiper-container--6", {
+new Swiper(".swiper-container--6", {
   slidesPerView: 4,
   spaceBetween: 30,
   navigation: {
@@ -78,3 +74,15 @@ var swiper6 = new Swiper(".swiper-container--6", {
     prevEl: ".btn__prev-type-6",
   },
 });
+new Swiper(".swiper-container--7", {
+  slidesPerView: 6,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".btn__next-type-7",
+    prevEl: ".btn__prev-type-7",
+  },
+});
+setTimeout(() => {
+  document.querySelector(".loading").style.display = "none";
+  document.querySelector(".swiper-container--7").style.visibility = "visible";
+}, 2000);
