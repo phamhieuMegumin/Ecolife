@@ -81,7 +81,33 @@
         </ul>
       </div>
       <!-- header-main -->
+      <input type="checkbox" id="menu__check" class="menu__check">
+      <label class="layout__grey" for="menu__check"></label>
+      <!-- Nav bar -->
+      
+      <div class="menu__nav-bar">
+        <ul class="menu__nav-bar-list">
+          <li class="menu__nav-bar-item nav__bar-top">
+              <div class="header-top__item-main">
+                <a href="#" class="header-top__item-link">
+                  <i class="fas fa-random header-top__item-link-icon-left"></i>
+                  <span class="header-top__item-logo-content">Compare (0)</span>
+                </a>
+              </div>
+              <div class="header-top__item-main">
+                <a href="#" class="header-top__item-link">
+                  <i class="fas fa-heart header-top__item-link-icon-left"></i>
+                  <span class="header-top__item-logo-content">Wishlist (0)</span>
+                </a>
+              </div>
+          </li>
+        </ul>
+      </div>
+      <!-- header -->
       <div class="header-main p-14">
+        <div class="nav__bar__logo">
+          <label for="menu__check"><i class="fas fa-bars"></i></label>
+        </div>
         <div class="header-main__logo">
           <img src="http://demo.posthemes.com/pos_ecolife/img/ecolife-responsive-prestashop-theme-logo-1580528177.jpg"
             alt="logo" class="header__logo" />
@@ -232,6 +258,10 @@
             </div>
           </div>
         </div>
+        <div class="nav__bar-icon">
+          <i class="fas fa-user-tie"></i>
+          <i class="fas fa-shopping-bag"></i>
+        </div>
       </div>
     </header>
     <!-- Slicky slider -->
@@ -277,32 +307,36 @@
     <div class="app__main p-14">
       <!-- Banner -->
       <div class="banner">
-        <div class="banner__item">
-          <i class="fas fa-truck-moving"></i>
-          <div class="banner__item-content">
-            <h3>Free Shipping</h3>
-            <p>On all orders over 175.00</p>
+        <div class="banner__item-left">
+          <div class="banner__item">
+            <i class="fas fa-truck-moving"></i>
+            <div class="banner__item-content">
+              <h3>Free Shipping</h3>
+              <p>On all orders over 175.00</p>
+            </div>
+          </div>
+          <div class="banner__item">
+            <i class="fas fa-globe"></i>
+            <div class="banner__item-content">
+              <h3>Free Returns</h3>
+              <p>Returns are free within 9 days</p>
+            </div>
           </div>
         </div>
-        <div class="banner__item">
-          <i class="fas fa-globe"></i>
-          <div class="banner__item-content">
-            <h3>Free Returns</h3>
-            <p>Returns are free within 9 days</p>
+        <div class="banner__item-right">
+          <div class="banner__item">
+            <i class="far fa-credit-card"></i>
+            <div class="banner__item-content">
+              <h3>100% Payment Secure</h3>
+              <p>Your payment are safe with us.</p>
+            </div>
           </div>
-        </div>
-        <div class="banner__item">
-          <i class="far fa-credit-card"></i>
-          <div class="banner__item-content">
-            <h3>100% Payment Secure</h3>
-            <p>Your payment are safe with us.</p>
-          </div>
-        </div>
-        <div class="banner__item">
-          <i class="fas fa-phone-square-alt"></i>
-          <div class="banner__item-content">
-            <h3>Support 24/7</h3>
-            <p>Contact us 24 hours a day</p>
+          <div class="banner__item">
+            <i class="fas fa-phone-square-alt"></i>
+            <div class="banner__item-content">
+              <h3>Support 24/7</h3>
+              <p>Contact us 24 hours a day</p>
+            </div>
           </div>
         </div>
       </div>
