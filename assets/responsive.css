@@ -73,6 +73,7 @@
   }
   .product__side-bar-left {
     max-width: 100%;
+    padding-right: 0;
   }
   .product__side-bar-right {
     width: 100%;
