@@ -180,8 +180,54 @@
 .header-main__right-item + .header-main__right-item {
   margin-left: 50px;
 }
+.header__search-wrapper {
+  position: relative;
+  margin-right: 30px;
+}
 .header-main__right-search {
   font-size: 22px;
+  cursor: pointer;
+  transition: color linear 0.3s;
+}
+.header-main__right-search:hover {
+  color: #4fb68d;
+}
+.search__bar {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  z-index: 1000;
+  display: flex;
+  height: 0;
+  overflow-y: hidden;
+  transition: height linear 0.3s;
+}
+.search__bar input {
+  width: 400px;
+  padding: 12px 15px;
+  outline: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: 2px solid #4fb68d;
+  border-right: none;
+}
+.search__bar-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  background: #4fb68d;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  transition: background-color linear 0.3s;
+}
+.search__bar-btn:hover {
+  background: #000;
+}
+.search__bar.active {
+  height: 45px;
 }
 .header-main__right-phone span {
   display: block;

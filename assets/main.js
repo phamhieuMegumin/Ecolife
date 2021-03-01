@@ -165,3 +165,9 @@ setTimeout(() => {
   document.querySelector(".loading").style.display = "none";
   document.querySelector(".swiper-container--7").style.visibility = "visible";
 }, 2000);
+
+document
+  .querySelector(".header-main__right-search")
+  .addEventListener("click", () => {
+    document.querySelector(".search__bar").classList.toggle("active");
+  });
