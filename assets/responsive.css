@@ -24,7 +24,7 @@
   .header-main__content {
     display: none;
   }
-  .header-main__logo {
+  header .header-main__logo {
     position: relative;
     left: 38px;
   }
@@ -101,5 +101,31 @@
   .banner__item-right {
     padding-top: 0;
     padding-bottom: 0;
+  }
+  .header-main__item-menu.footer__menu.footer__menu--respon {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+  }
+  .footer__menu--respon-n {
+    display: none;
+  }
+  .banner__payment {
+    display: none;
+  }
+}
+/* Mobie */
+@media (max-width: 680px) {
+  .menu__nav-bar .header-top__item-main:first-child {
+    margin-right: 10px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .footer__left,
+  .footer__right {
+    width: 100%;
+    max-width: 100%;
   }
 }

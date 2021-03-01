@@ -80,7 +80,7 @@ new Swiper(".swiper-container--3", {
   },
 });
 new Swiper(".swiper-container--4", {
-  slidesPerView: 2,
+  slidesPerView: 1,
   spaceBetween: 30,
   navigation: {
     nextEl: ".btn__next-type-4",
@@ -89,6 +89,10 @@ new Swiper(".swiper-container--4", {
   breakpoints: {
     740: {
       slidesPerView: 1,
+      spaceBetween: 30,
+    },
+    500: {
+      slidesPerView: 2,
       spaceBetween: 30,
     },
   },
