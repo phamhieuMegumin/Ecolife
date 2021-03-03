@@ -171,7 +171,7 @@
               <a href="#" class="header-main__item-link">Home</a>
             </li>
             <li class="header-main__item header-main__item-link--drop">
-              <a href="#" class="header-main__item-link header-main__item-link--drop">Fresh Food
+              <a href="./pages/freshFood.html" class="header-main__item-link header-main__item-link--drop">Fresh Food
                 <i class="fas fa-chevron-down header-top__item-link-icon-right header__icon--main"></i>
               </a>
               <div class="header-main__item-drop">
@@ -322,8 +322,20 @@
           </div>
         </div>
         <div class="nav__bar-icon">
-          <i class="fas fa-user-tie"></i>
-          <i class="fas fa-shopping-bag"></i>
+          <i class="fas fa-user-tie header-top__item-main--drop">
+            <div class="header__drop-menu">
+              <ul class="header__drop-menu-list">
+                <li class="header__drop-menu-item">My accound</li>
+                <li class="header__drop-menu-item">Checkout</li>
+                <li class="header__drop-menu-item">Sign in</li>
+              </ul>
+            </div>
+          </i>
+          <a href="#" class="header-main__right-price-link">
+            <i class="fas fa-shopping-cart">
+              <div class="total__cart"><span>0</span></div>
+            </i>
+          </a>
         </div>
       </div>
     </header>
@@ -2258,7 +2270,7 @@
         </div>
       </div>
       <!-- Recently added -->
-      <div class="product__recently__add">
+      <div class="product__recently__add mt-60">
         <h3 class="product__type-name">Recently Added</h3>
         <p class="product__type-desc">
           Add products to weekly line up
@@ -2814,6 +2826,9 @@
         </div>
       </div>
     </footer>
+    <div class="scroll__to-top">
+      <i class="fas fa-arrow-circle-up"></i>
+    </div>
   </div>
     <script src="./assets/main.js"></script>
     <script src="./assets/components.js"></script>

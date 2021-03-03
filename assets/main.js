@@ -13,11 +13,11 @@ document
       });
     });
   });
-document.querySelector(".header-main").addEventListener("click", () => {
-  listItems.forEach((item) => {
-    item.classList.remove("active");
-  });
-});
+// document.querySelector(".header-main").addEventListener("click", () => {
+//   listItems.forEach((item) => {
+//     item.classList.remove("active");
+//   });
+// });
 
 new Swiper(".swiper-container", {
   spaceBetween: 30,
@@ -175,3 +175,11 @@ document
   .addEventListener("click", () => {
     document.querySelector(".search__bar").classList.toggle("active");
   });
+
+const scrollToTop = document.querySelector(".scroll__to-top");
+window.addEventListener("scroll", () => {
+  scrollToTop.classList.toggle("active", window.scrollY > 1000);
+});
+scrollToTop.addEventListener("click", function () {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});

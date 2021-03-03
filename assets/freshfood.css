@@ -1,0 +1,107 @@
+.fresh__food-banner {
+  background: url("http://demo.posthemes.com/pos_ecolife/themes/theme_ecolife1/assets/img/bg_breadcrumb.jpg");
+  background-size: cover;
+  height: 290px;
+  display: flex;
+}
+.breadscrumb {
+  margin: auto;
+  text-align: center;
+}
+.breadscrumb h3 {
+  font-size: 26px;
+  color: #253237;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  margin-bottom: 15px;
+}
+.breadscrumb__link {
+  font-size: 14px;
+}
+.breadscrumb__link > span {
+  margin: 0 10px;
+}
+.breadscrumb__link > a {
+  text-decoration: none;
+}
+.breadscrumb__link > a:first-child {
+  color: #253237;
+  transition: color linear 0.3s;
+}
+.breadscrumb__link > a:last-child {
+  color: #4fb68d;
+}
+.breadscrumb__link > a:first-child:hover {
+  color: #4fb68d;
+}
+.fresh__food-content {
+  display: flex;
+}
+.fresh__food-content__site-bar {
+  width: 25%;
+  max-width: 25%;
+}
+.fresh__food-content__main {
+  width: 75%;
+}
+.fresh__food-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.fresh__food-list .cart--type-1 {
+  width: 250px;
+  max-width: 250px;
+  padding: 0 15px;
+  margin-top: 30px;
+}
+.fresh__food-content__site-bar {
+  margin-top: 30px;
+  padding-right: 30px;
+}
+.fresh__food-content__site-bar .name__line {
+  position: relative;
+  text-decoration: none;
+  display: block;
+  height: 38px;
+}
+.fresh__food-content__site-bar h3 {
+  color: #253237;
+  font-size: 18px;
+  font-weight: 500;
+}
+.name__line + .name__line {
+  margin-top: 30px;
+}
+.categories {
+  margin-top: 30px;
+}
+.category__list {
+  margin-top: 10px;
+}
+.categories h3 {
+  font-size: 16px;
+}
+.category__item {
+  display: block;
+  cursor: pointer;
+}
+.category__item span {
+  font-size: 15px;
+  color: #555;
+  transition: color linear 0.3s;
+}
+.category__item input {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.category__item:hover span {
+  color: #4fb68d;
+}
+.category__item + .category__item {
+  margin-top: 10px;
+}
+.button__group a {
+  margin-bottom: 10px;
+}

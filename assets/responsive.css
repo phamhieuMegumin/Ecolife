@@ -15,6 +15,9 @@
   .nav__bar-icon {
     display: block;
   }
+  .total__cart {
+    transform: translate(100%, 50%);
+  }
   .header-top__category {
     display: none;
   }

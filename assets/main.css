@@ -66,6 +66,7 @@
   transition: height linear 0.4s;
   height: 0;
   border-bottom: none;
+  border-top: none;
   z-index: 999;
 }
 .header__drop-menu-list {
@@ -88,6 +89,7 @@
 .header__drop-menu.active {
   height: 138px;
   border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
 }
 .header__drop-menu--2.active {
   height: 92px;
@@ -136,6 +138,20 @@
 }
 .nav__bar-icon i:first-child {
   margin-right: 10px;
+}
+.nav__bar-icon i,
+.nav__bar-icon a {
+  transition: color linear 0.3s;
+  position: relative;
+  cursor: pointer;
+}
+.nav__bar-icon i:hover,
+.nav__bar-icon a:hover {
+  color: #4fb68d;
+}
+.nav__bar-icon .header__drop-menu-item {
+  font-weight: 400;
+  font-size: 14px;
 }
 .header-main__content {
   flex: 1;
@@ -985,4 +1001,20 @@ input[type="checkbox"]:checked ~ .menu__nav-bar {
 }
 .nav__bar-menu i {
   font-weight: 600;
+}
+.scroll__to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  color: #4fb68d;
+  font-size: 50px;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.scroll__to-top.active {
+  opacity: 1;
+  visibility: visible;
 }
