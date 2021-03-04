@@ -35,3 +35,7 @@ category.forEach((item) => {
     }, 1000);
   });
 });
+const sortList = document.querySelector(".search__menu");
+document.querySelector(".sort__bar").addEventListener("click", () => {
+  sortList.classList.toggle("active");
+});

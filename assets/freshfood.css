@@ -51,13 +51,12 @@
   margin-right: -15px;
 }
 .fresh__food-list .cart--type-1 {
-  width: 250px;
-  max-width: 250px;
+  width: 25%;
+  max-width: 25%;
   padding: 0 15px;
   margin-top: 30px;
 }
 .fresh__food-content__site-bar {
-  margin-top: 30px;
   padding-right: 30px;
 }
 .fresh__food-content__site-bar .name__line {
@@ -104,4 +103,104 @@
 }
 .button__group a {
   margin-bottom: 10px;
+}
+.advetisment__img-box {
+  display: block;
+}
+.advetisment__img-box img {
+  width: 100%;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.pagination__item {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.pagination__item i {
+  font-size: 12px;
+}
+.pagination__item--primary {
+  background-color: #f6f6f6;
+  color: #253237;
+  transition: all linear 0.3s;
+}
+.pagination__item--primary:hover {
+  background-color: #4fb68d;
+  color: #fff;
+}
+.pagination__item--color {
+  background-color: #4fb68d;
+  color: #fff;
+}
+.pagination__item + .pagination__item {
+  margin-left: 5px;
+}
+.product__list-top {
+  background-color: #f6f6f6;
+  padding: 10px 30px;
+}
+.product__list-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  line-height: 20px;
+  color: #999;
+}
+.product__list-sort {
+  display: flex;
+  align-items: center;
+}
+.product__list-sort span {
+  margin-right: 20px;
+}
+.sort__bar {
+  position: relative;
+  width: 325px;
+  padding: 5px 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #253237;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.search__menu {
+  position: absolute;
+  top: calc(100% + 2px);
+  background-color: #fff;
+  width: 100%;
+  left: 0;
+  z-index: 1000;
+  border-radius: 5px;
+  border: 1px solid #ebebeb;
+  padding: 5px 0;
+  display: none;
+}
+.search__menu a {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  text-align: right;
+  text-decoration: none;
+  color: #253237;
+  padding: 5px 5px;
+  transition: all linear 0.3s;
+}
+.search__menu a:hover {
+  background-color: #4fb68d;
+  color: #fff;
+}
+.search__menu.active {
+  display: block;
 }

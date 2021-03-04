@@ -2,6 +2,10 @@
   .header-main__item + .header-main__item {
     margin-left: 20px;
   }
+  .fresh__food-list .cart--type-1 {
+    width: 33.333333%;
+    max-width: 33.333333%;
+  }
 }
 /* Tablet and Mobile */
 @media (max-width: 1023px) {
@@ -65,6 +69,10 @@
     width: 100%;
     max-width: 100%;
   }
+  .fresh__food-list .cart--type-1 {
+    width: 50%;
+    max-width: 50%;
+  }
 }
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -117,6 +125,24 @@
   }
   .banner__payment {
     display: none;
+  }
+  .fresh__food-content {
+    flex-direction: column;
+  }
+  .fresh__food-content__site-bar {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0;
+  }
+  .fresh__food-content__main {
+    width: 100%;
+  }
+  .site__bar-hidden {
+    display: none;
+  }
+  .button__group a {
+    margin: 0 5px;
+    margin-bottom: 10px;
   }
 }
 /* Mobie */
