@@ -24,14 +24,14 @@
 .breadscrumb__link > a {
   text-decoration: none;
 }
-.breadscrumb__link > a:first-child {
+.breadscrumb__link > a:not(:last-child) {
   color: #253237;
   transition: color linear 0.3s;
 }
 .breadscrumb__link > a:last-child {
   color: #4fb68d;
 }
-.breadscrumb__link > a:first-child:hover {
+.breadscrumb__link > a:not(:last-child):hover {
   color: #4fb68d;
 }
 .fresh__food-content {
